@@ -8,7 +8,7 @@ b = int(input('b: '))
 c = int(input('c: '))
 
     
-if a > b and a > c:
+if a > b and a > c: # and, tagastab True, kui mõlemad väited on tõesed.
    print('Maksimum on', a)
 elif b > c:
    print('Maksimum on', b)

@@ -4,7 +4,7 @@
 
 aasta = int(input("Sisesta aasta: "))
 
-if aasta % 400 == 0 or aasta % 4 == 0 and aasta % 100 != 0:
+if aasta % 400 == 0 or aasta % 4 == 0 and aasta % 100 != 0: # != not equal
     print(aasta, 'on liigaasta')  
 else:
     print(aasta, 'ei ole liigaasta') 

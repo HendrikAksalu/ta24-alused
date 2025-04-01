@@ -6,11 +6,11 @@
 
 string = input("Sisesta sõna: ")
 print(string)
-string = string.strip()
+string = string.strip() # strip() meetod on Pythonis stringimeetod, mis eemaldab tühikud (või määratud märgid) stringi algusest ja lõpust.
 print(string, "*")
 
-if len(string) >= 7 and len(string) % 2 != 0:
-   middle = len(string) // 2
+if len(string) >= 7 and len(string) % 2 != 0: # Greater than or equal ( >= )
+   middle = len(string) // 2 # Funktsioon len() tagastab objektis olevate elementide arvu.
    print(string[middle-1:middle+2])
    
 

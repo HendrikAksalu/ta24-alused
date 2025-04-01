@@ -2,6 +2,6 @@
 
 number = 1
 
-while number <= 5:
+while number <= 5: # <=  kontrollib, kas vasakpoolne väärtus on väiksem või võrdne parempoolse väärtusega.
     print(number)
-    number += 1
+    number += 1 # +=  muutujale lisatakse mingi väärtus ja tulemus salvestatakse samasse muutujasse.

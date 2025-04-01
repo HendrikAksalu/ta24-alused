@@ -10,15 +10,15 @@ choices = ["kivi", "paber", "käärid"]
 
 while True:
    
-    random_choice = random.choice(choices)
+    random_choice = random.choice(choices) # arvuti valib juhuslikult ühe valiku.
    
     input_choice = input("Vali kivi, paber või käärid: ").lower()
    
-    if input_choice not in choices:
+    if input_choice not in choices: # kontrollib, kas sisestatud valik on lubatud.
         print("Palun vali kivi, paber või käärid.")
         continue
      
-    if input_choice == random_choice:
+    if input_choice == random_choice: # määrab tulemuse, kas viik, võit või kaotus.
         print("Viik!")
     elif (input_choice == "kivi" and random_choice == "käärid") or \
          (input_choice == "paber" and random_choice == "kivi") or \
@@ -31,4 +31,4 @@ while True:
     again = input("Kas soovid mängida uuesti? (jah/ei): ").lower()
     if again != "jah":
         print("Aitäh mängimast! Head päeva!")
-        break
+        break # lõpetab mängu, kui kasutaja ei soovi uuesti mängida.

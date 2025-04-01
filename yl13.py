@@ -13,6 +13,7 @@ lemmikloomade_list = ["kass", "jänes", "papagoi"]
 print()
 
 lemmikloomade_list.append(lemmikloom)
+#.append() on Pythonis meetod, mida kasutatakse loendisse (list) uue elemendi lisamiseks. See lisab uue elemendi loendi lõppu.
 
 print("lemmikloomade_list:", lemmikloomade_list)
 

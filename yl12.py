@@ -16,7 +16,7 @@ print("Esialgne list:", puuviljad)
 
 print("Esimene väärtus:", puuviljad[0])
 
-puuviljad.append("apelsin")
+puuviljad.append("apelsin") # Meetod append() lisab elemendi loendi lõppu.
 print("Pärast uue puuvilja lisamist:", puuviljad)
 
 print("Viimane väärtus:", puuviljad[-1])

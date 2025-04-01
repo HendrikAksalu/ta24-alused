@@ -8,5 +8,6 @@
 
 a = int(input("Sisestage arv: "))
 
-for x in range(0, 13):
+for x in range(0, 13): # for x in range(0, 13): → tsükkel käib läbi arvud 0 kuni 12.
     print(a, "x", x, "=", a*x)
+# a*x → korrutab kasutaja sisestatud arvu a tsükli väärtusega x.

@@ -13,6 +13,8 @@
 # Läbi ülesanne juhendi lõpus.
 # https://www.w3schools.com/python/python_dictionaries.asp
 
+
+# dict kasutatakse andmeväärtuste salvestamiseks võtme:väärtuse paaridena.
 dict = {
     "first_name" : "Mati",
     "last_name" : "Maasikas",

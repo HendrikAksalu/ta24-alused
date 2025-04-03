@@ -6,19 +6,17 @@
 
 
 
-nimi = input("Sisesta oma nimi: ") #input() funktsioon võimaldab kasutajal sisestada teksti.
+name = input("Sisesta nimi: ")
+print ("Tere, " + name + "!")
 
-print(f"Tere, {nimi}!")
+location = (input("Sisesta elukoht: "))
+if location.lower().find("saaremaa") != -1:
+    print("Saaremaa on üks koht")
 
-elukoht = input("Kus on sinu elukoht? ") 
-if elukoht.lower() .find("saaremaa") != -1 : #.lower() teisendab kogu teksti väikesteks tähtedeks
-    print("Saaremaa on üks kena koht kus elada.")
-
-vanus = int(input("Kui vana sa oled? "))
-
+vanus = int(input("Sisesta vanus : "))
 if vanus < 18:
-    print("Sa oled liiga noor, et autot juhtida.")
-elif vanus == 18:
-    print("Palju õnne täisealiseks saamise puhul!")
-else:
-    print("Sa võid autot juhtida.")
+    print("Oled liiga noor, et autot juhtida!")
+elif vanus == 18 :
+    print ("Palju õnne täisealiseks saamise puhul!")
+else :
+    print("Võid autot juhtida!")
